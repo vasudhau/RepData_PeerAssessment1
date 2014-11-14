@@ -59,7 +59,9 @@ The mean total number of steps taken per day is 10395
 
 ## What is the average daily activity pattern?
 
-The daily activity pattern is 
+
+The average daily activity pattern is 
+
 
 ```r
 dayline<-ggplot(stepstakenper5min,aes(x=interval,y=meansteps))+geom_line()+
